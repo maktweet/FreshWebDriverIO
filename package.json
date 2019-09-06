@@ -1,0 +1,28 @@
+{
+  "name": "FreshWebDriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^5.12.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "selenium-standalone": "^6.16.0",
+    "wdio": "^3.0.3",
+    "webdriverio": "^5.12.5"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.12.5",
+    "@wdio/mocha-framework": "^5.12.1",
+    "@wdio/spec-reporter": "^5.12.1",
+    "@wdio/sync": "^5.12.3",
+    "chromedriver": "^76.0.1",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
